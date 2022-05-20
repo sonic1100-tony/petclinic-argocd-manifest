@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: petclinic
-        image: <Harbor_IP>:<Harbor_Port>/petclinic/spring-petclinic-rest:<Image_Tag>
+        image: 13.209.194.142:8000/harbor/projects/3/repositories/spring-petclinic-restt:latest
         ports:
         - containerPort: 9966
       imagePullSecrets:
